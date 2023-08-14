@@ -31,19 +31,14 @@ python -m venv env
 source env/bin/activate
 ```
 
-5. Instale as dependências do projeto:
 
-```bash
-pip install -r requirements.txt
-```
-
-6. Execute as migrações do Django:
+5. Execute as migrações do Django:
 
 ```bash
 python manage.py migrate
 ```
 
-7. Inicie o servidor de desenvolvimento:
+6. Inicie o servidor de desenvolvimento:
 
 ```bash
 python manage.py runserver
